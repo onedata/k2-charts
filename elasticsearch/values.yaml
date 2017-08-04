@@ -75,3 +75,7 @@ data_scheduling:
       # - key: iamalabelkey
       #   operator: In
       #   values: ["value1", "value2"]
+
+# Enable persistent volume claims
+persistence:
+  enabled: true
