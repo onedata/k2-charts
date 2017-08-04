@@ -1,16 +1,16 @@
 dependencies:
   - name: daemon-fluentd
     version: 0.3.0
-    repository: http://atlas.cnct.io
+    repository: file://../daemon-fluentd
   - name: kafka
     version: 0.2.0
-    repository: http://atlas.cnct.io
+    repository: file://../kafka
   - name: central-fluentd
     version: 0.1.0
-    repository: http://atlas.cnct.io
+    repository: file://../central-fluentd
   - name: elasticsearch
     version: 0.2.1
-    repository: http://atlas.cnct.io
+    repository: file://../elasticsearch
   - name: kibana
     version: 0.1.2
-    repository: http://atlas.cnct.io
+    repository: file://../kibana
