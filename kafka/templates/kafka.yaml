@@ -169,7 +169,7 @@ metadata:
   labels:
     app: {{.Values.name}}-monitor
 spec:
-  type: LoadBalancer
+  type: {{.Values.kafka_monitor_service_type}} 
   ports:
   - port: {{.Values.kafka_monitor_gui_port}}
     name: gui

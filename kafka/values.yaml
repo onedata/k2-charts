@@ -91,6 +91,7 @@ kafka_monitor_scheduling:
       # - key: iamalabelkey
       #   operator: In
       #   values: ["value1", "value2"]
+kafka_monitor_service_type: LoadBalancer
 
 # Enable persistent volume claims
 persistence:
