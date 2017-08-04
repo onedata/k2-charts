@@ -8,5 +8,11 @@ elasticsearch:
     enabled: false
 
 kafka:
+  image: quay.io/samsung_cnct/kafka-statefulset:latest
   persistence:
     enabled: false
+  kafka_monitor_service_type: ClusterIP
+
+kibana:
+  service:
+    type: ClusterIP
